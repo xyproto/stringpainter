@@ -1,8 +1,11 @@
 module github.com/xyproto/vt100
 
-go 1.10
+go 1.17
 
 require (
+	github.com/nathan-fiscaletti/consolesize-go v0.0.0-20220204101620-317176b6684d
 	github.com/pkg/term v1.2.0-beta.2.0.20210419004637-f749b98bd0ba
-	golang.org/x/sys v0.0.0-20211004093028-2c5d950f24ef // indirect
+	github.com/xyproto/burnfont v1.2.3
 )
+
+require golang.org/x/sys v0.15.0 // indirect
